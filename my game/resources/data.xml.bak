@@ -61,4 +61,7 @@
             <poly data="4,0,0,32,0,32,83,0,83" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <tileset across="1" atlasID="0" desc="" down="1" id="7" name="rooftop entrance" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
 </pack>
