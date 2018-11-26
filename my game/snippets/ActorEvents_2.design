@@ -3,14 +3,17 @@
     <group eventID="1" id="0">
         <step comment="false" x="18" y="29">
             <group eventID="1" id="-1">
-                <if comment="false" x="29" y="54">
+                <camera-follow comment="false" x="29" y="54">
+                    <ACTOR eid="this" id="0"/>
+                </camera-follow>
+                <if comment="false" x="29" y="81">
                     <group eventID="1" id="-1">
-                        <set-dxy comment="false" x="40" y="87">
+                        <set-dxy comment="false" x="40" y="114">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-2-1 comment="false" id="2" x="0" y="0"/>
                         </set-dxy>
-                        <setanim comment="false" x="40" y="119">
+                        <setanim comment="false" x="40" y="146">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="run right"/>
                         </setanim>
@@ -20,16 +23,16 @@
                         <control eid="3" id="1"/>
                     </keystate>
                 </if>
-                <else-if comment="false" x="29" y="158">
+                <else-if comment="false" x="29" y="185">
                     <group eventID="1" id="-1">
-                        <set-dxy comment="false" x="40" y="191">
+                        <set-dxy comment="false" x="40" y="218">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
                                 <get-val-2-1 comment="false" id="0" x="0" y="0"/>
                             </neg>
                         </set-dxy>
-                        <setanim comment="false" x="40" y="228">
+                        <setanim comment="false" x="40" y="255">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="run left"/>
                         </setanim>
@@ -39,14 +42,14 @@
                         <control eid="2" id="1"/>
                     </keystate>
                 </else-if>
-                <else-if comment="false" x="29" y="267">
+                <else-if comment="false" x="29" y="294">
                     <group eventID="1" id="-1">
-                        <set-xy comment="false" x="40" y="310">
+                        <set-dxy comment="false" x="40" y="337">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
-                        </set-xy>
-                        <setanim comment="false" x="40" y="337">
+                        </set-dxy>
+                        <setanim comment="false" x="40" y="364">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="standing"/>
                         </setanim>
