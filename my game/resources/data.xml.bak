@@ -74,6 +74,14 @@
     </tileset>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="6" name="City Background" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="1280" xpf="1.0" ypf="1.0"/>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="7" name="Highway" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="1696" xpf="2.0" ypf="2.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="-2" id="8" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="invisible floor" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="9" name="invisible floor" shared="false" width="640">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="320" originy="16" sync="false" version="2" width="640">
+            <poly data="4,0,0,640,0,640,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="false" fric="0.2" gid="3" id="2" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="protagonist" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="3" static="false">
         <snippets/>
     </actor>
@@ -86,6 +94,12 @@
         </anim>
         <anim across="3" down="3" durations="100,100,100,100,100,100,100,100,100" height="249" id="2" loop="true" name="run left" numframes="9" originx="32" originy="41" sync="false" version="2" width="192">
             <poly data="4,0,0,64,0,64,83,0,83" density="0.1" fric="0.2" gid="-1000" id="0" name="run left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="249" id="3" loop="false" name="jump right" numframes="11" originx="16" originy="41" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,83,0,83" density="0.1" fric="0.2" gid="-1000" id="0" name="jump right" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="249" id="4" loop="false" name="jump left" numframes="11" originx="16" originy="41" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,83,0,83" density="0.1" fric="0.2" gid="-1000" id="0" name="jump left" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
 </pack>

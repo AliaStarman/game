@@ -131,4 +131,45 @@
         </step>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="71" y="69">
+            <group eventID="3" id="-1">
+                <if comment="false" x="82" y="94">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="93" y="132">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="-32"/>
+                        </set-dxy>
+                        <set-val-2-2 comment="false" x="93" y="159">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-2-2>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <control eid="0" id="1"/>
+                        </keystate>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-val-2-2 comment="false" id="0" x="0" y="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortogroup comment="false" x="31" y="110">
+            <group eventID="4" id="-1">
+                <set-val-2-2 comment="false" x="42" y="142">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-2-2>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="-2" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="-1"/>
 </groups>
