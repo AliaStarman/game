@@ -10,7 +10,7 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="3" c="false" group="3" id="2" name="protagonist 3" sx="1.0" sy="1.0" x="103" y="357" z="3"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="2" name="protagonist 3" sx="1.0" sy="1.0" x="285" y="383" z="3"/>
     </actors>
     <snippets/>
     <terrain>
