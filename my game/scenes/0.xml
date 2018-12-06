@@ -2,19 +2,19 @@
 <scene depth="1" desc="" eventsnippetid="1" extheight="544" extwidth="3456" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="0" name="level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="3392">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="City Background" opacity="100" order="2" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <background blendMode="normal" customScrollFactor="true" id="2" locked="true" name="Highway" opacity="100" order="1" rid="7" scrollFactorX="1.5" scrollFactorY="1.5" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="City Background" opacity="100" order="1" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="0,255,0" id="3" locked="false" name="invis. floor" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="3" c="false" group="3" id="2" name="protagonist 3" sx="1.0" sy="1.0" x="285" y="383" z="3"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="2" name="protagonist 3" sx="1.0" sy="1.0" x="96" y="300" z="3"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="8" name="map item 4" sx="1.0" sy="1.0" x="512" y="288" z="3"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="4,3392.0,0.0,3392.0,16.0,0.0,16.0,0.0,0.0" x="0.0" y="464.0"/>
+        <p pts="12,0.0,160.0,0.0,64.0,416.0,64.0,416.0,32.0,480.0,32.0,480.0,0.0,576.0,0.0,576.0,32.0,608.0,32.0,608.0,64.0,3392.0,64.0,3392.0,160.0" x="0.0" y="320.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

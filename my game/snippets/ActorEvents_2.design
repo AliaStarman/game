@@ -202,21 +202,21 @@
         </step>
     </group>
     <group eventID="1" id="-1">
-        <eq comment="false" x="1312" y="295">
+        <eq comment="false" x="1282" y="114">
             <get-val-2-3 comment="false" id="0" x="0" y="0"/>
-            <false comment="false" id="1" x="0" y="0"/>
+            <true comment="false" id="1" x="0" y="0"/>
         </eq>
-        <and comment="false" x="1195" y="249">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </and>
         <and comment="false" x="939" y="143">
             <int id="0" val=""/>
             <int id="1" val=""/>
         </and>
-        <eq comment="false" x="1282" y="114">
+        <and comment="false" x="1195" y="249">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </and>
+        <eq comment="false" x="1312" y="295">
             <get-val-2-3 comment="false" id="0" x="0" y="0"/>
-            <true comment="false" id="1" x="0" y="0"/>
+            <false comment="false" id="1" x="0" y="0"/>
         </eq>
     </group>
     <group eventID="2" id="0">
