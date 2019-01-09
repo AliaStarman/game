@@ -3,7 +3,7 @@
     <layers>
         <color-bg blue="255" green="255" red="255"/>
         <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="City Background" opacity="100" order="1" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="3" locked="false" name="invis. floor" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="3" locked="false" name="floor" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
@@ -11,10 +11,11 @@
     <actors>
         <actor a="0.0" aid="3" c="false" group="3" id="2" name="protagonist 3" sx="1.0" sy="1.0" x="96" y="300" z="3"/>
         <actor a="0.0" aid="4" c="false" group="3" id="8" name="map item 4" sx="1.0" sy="1.0" x="512" y="288" z="3"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="10" name="enemy 5" sx="1.0" sy="1.0" x="198" y="297" z="3"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="12,0.0,160.0,0.0,64.0,416.0,64.0,416.0,32.0,480.0,32.0,480.0,0.0,576.0,0.0,576.0,32.0,608.0,32.0,608.0,64.0,3392.0,64.0,3392.0,160.0" x="0.0" y="320.0"/>
+        <p pts="12,0.0,160.0,0.0,64.0,416.0,64.0,416.0,32.0,480.0,32.0,480.0,0.0,576.0,0.0,576.0,32.0,640.0,32.0,640.0,64.0,3392.0,64.0,3392.0,160.0" x="0.0" y="320.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>
