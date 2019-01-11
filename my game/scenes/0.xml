@@ -11,7 +11,7 @@
     <actors>
         <actor a="0.0" aid="3" c="false" group="3" id="2" name="protagonist 3" sx="1.0" sy="1.0" x="96" y="300" z="3"/>
         <actor a="0.0" aid="4" c="false" group="3" id="8" name="map item 4" sx="1.0" sy="1.0" x="512" y="288" z="3"/>
-        <actor a="0.0" aid="5" c="false" group="3" id="10" name="enemy 5" sx="1.0" sy="1.0" x="198" y="297" z="3"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="10" name="enemy 5" sx="1.0" sy="1.0" x="747" y="298" z="3"/>
     </actors>
     <snippets/>
     <terrain>
