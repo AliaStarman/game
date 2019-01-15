@@ -10,7 +10,7 @@
         <number default="20.0" defaultValue="20.0" desc="How fast the protagonist can move." dropdown="" fullname="Run Speed" hidden="false" id="1" name="_RunSpeed" order="0"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="touchfloor" hidden="false" id="2" name="_touchfloor" order="1"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facingright" hidden="false" id="3" name="_facingright" order="2"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="protagonist x" hidden="false" id="4" name="_protagonistx" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="protagonist x" hidden="false" id="4" name="_protagonistx" order="3"/>
         <blocks/>
         <events>
             <event displayName="running" enabled="true" id="1" name="step" order="5" repeats="true"/>
@@ -70,7 +70,14 @@
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="2" name="step" order="2" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="3" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="12" attachedevent="true" class="scripts.ActorEvents_12" classname="scripts.ActorEvents_12" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="7" name="ActorEvents_12" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="2" name="step" order="2" repeats="true"/>
         </events>
     </snippet>
 </pack>

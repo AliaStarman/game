@@ -234,21 +234,21 @@
         </step>
     </group>
     <group eventID="1" id="-1">
-        <eq comment="false" x="1282" y="114">
+        <eq comment="false" x="1312" y="295">
             <get-val-2-3 comment="false" id="0" x="0" y="0"/>
-            <true comment="false" id="1" x="0" y="0"/>
+            <false comment="false" id="1" x="0" y="0"/>
         </eq>
-        <and comment="false" x="939" y="143">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </and>
         <and comment="false" x="1195" y="249">
             <int id="0" val=""/>
             <int id="1" val=""/>
         </and>
-        <eq comment="false" x="1312" y="295">
+        <and comment="false" x="939" y="143">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </and>
+        <eq comment="false" x="1282" y="114">
             <get-val-2-3 comment="false" id="0" x="0" y="0"/>
-            <false comment="false" id="1" x="0" y="0"/>
+            <true comment="false" id="1" x="0" y="0"/>
         </eq>
     </group>
     <group eventID="2" id="0">
@@ -497,19 +497,33 @@
             <group eventID="5" id="-1">
                 <if comment="false" x="26" y="40">
                     <group eventID="5" id="-1">
-                        <setanim comment="false" x="37" y="80">
+                        <setanim comment="false" x="37" y="83">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="kick right"/>
                         </setanim>
-                        <set-game-val-0 comment="false" x="37" y="107">
+                        <set-dxy comment="false" x="37" y="110">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-2-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="5"/>
+                            </plus>
+                        </set-dxy>
+                        <set-game-val-0 comment="false" x="37" y="147">
                             <int id="0" val="9"/>
                         </set-game-val-0>
                     </group>
                     <and comment="false" id="0" x="0" y="0">
-                        <keystate comment="false" id="0" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <control eid="1" id="1"/>
-                        </keystate>
+                        <and comment="false" id="0" x="0" y="0">
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <control eid="1" id="1"/>
+                            </keystate>
+                            <keystate comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <control eid="3" id="1"/>
+                            </keystate>
+                        </and>
                         <and comment="false" id="1" x="0" y="0">
                             <eq comment="false" id="0" x="0" y="0">
                                 <get-val-2-3 comment="false" id="0" x="0" y="0"/>
@@ -522,21 +536,37 @@
                         </and>
                     </and>
                 </if>
-                <else-if comment="false" x="26" y="139">
+                <else-if comment="false" x="26" y="179">
                     <group eventID="5" id="-1">
-                        <setanim comment="false" x="37" y="179">
+                        <setanim comment="false" x="37" y="222">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="kick left"/>
                         </setanim>
-                        <set-game-val-0 comment="false" x="37" y="206">
+                        <set-dxy comment="false" x="37" y="249">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <neg comment="false" id="0" x="0" y="0">
+                                    <get-val-2-1 comment="false" id="0" x="0" y="0"/>
+                                </neg>
+                                <int id="1" val="5"/>
+                            </minus>
+                        </set-dxy>
+                        <set-game-val-0 comment="false" x="37" y="291">
                             <int id="0" val="10"/>
                         </set-game-val-0>
                     </group>
                     <and comment="false" id="0" x="0" y="0">
-                        <keystate comment="false" id="0" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <control eid="1" id="1"/>
-                        </keystate>
+                        <and comment="false" id="0" x="0" y="0">
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <control eid="1" id="1"/>
+                            </keystate>
+                            <keystate comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <control eid="2" id="1"/>
+                            </keystate>
+                        </and>
                         <and comment="false" id="1" x="0" y="0">
                             <eq comment="false" id="0" x="0" y="0">
                                 <get-val-2-3 comment="false" id="0" x="0" y="0"/>
@@ -547,6 +577,76 @@
                                 <true comment="false" id="1" x="0" y="0"/>
                             </eq>
                         </and>
+                    </and>
+                </else-if>
+                <else-if comment="false" x="26" y="323">
+                    <group eventID="5" id="-1">
+                        <setanim comment="false" x="37" y="371">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="kick right"/>
+                        </setanim>
+                        <set-game-val-0 comment="false" x="37" y="398">
+                            <int id="0" val="11"/>
+                        </set-game-val-0>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <and comment="false" id="0" x="0" y="0">
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <control eid="1" id="1"/>
+                            </keystate>
+                            <eq comment="false" id="1" x="0" y="0">
+                                <get-val-2-3 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </and>
+                        <not comment="false" id="1" x="0" y="0">
+                            <and comment="false" id="0" x="0" y="0">
+                                <keystate comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="2" id="1"/>
+                                </keystate>
+                                <keystate comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="3" id="1"/>
+                                </keystate>
+                            </and>
+                        </not>
+                    </and>
+                </else-if>
+                <else-if comment="false" x="26" y="430">
+                    <group eventID="5" id="-1">
+                        <setanim comment="false" x="37" y="478">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="kick left"/>
+                        </setanim>
+                        <set-game-val-0 comment="false" x="37" y="505">
+                            <int id="0" val="12"/>
+                        </set-game-val-0>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <and comment="false" id="0" x="0" y="0">
+                            <keystate comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <control eid="1" id="1"/>
+                            </keystate>
+                            <eq comment="false" id="1" x="0" y="0">
+                                <get-val-2-3 comment="false" id="0" x="0" y="0"/>
+                                <false comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </and>
+                        <not comment="false" id="1" x="0" y="0">
+                            <and comment="false" id="0" x="0" y="0">
+                                <keystate comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="2" id="1"/>
+                                </keystate>
+                                <keystate comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <control eid="3" id="1"/>
+                                </keystate>
+                            </and>
+                        </not>
                     </and>
                 </else-if>
             </group>

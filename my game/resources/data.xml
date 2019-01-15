@@ -73,27 +73,32 @@
         <tile collision="-1" data="" durations="100" frames="69" id="71" order="-1"/>
     </tileset>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="6" name="City Background" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="1280" xpf="1.0" ypf="1.0"/>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="3" id="10" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="86" id="11" name="enemy" shared="false" width="32">
-        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="258" id="0" loop="true" name="enemy idle left" numframes="7" originx="16" originy="43" sync="false" version="2" width="96">
-            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy idle left" rest="0.0" sensor="false"/>
-        </anim>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="86" id="11" name="enemy" shared="false" width="32">
         <anim across="3" down="3" durations="100,100,100,100,100,100,100,100" height="258" id="1" loop="true" name="enemy run left" numframes="8" originx="18" originy="43" sync="false" version="2" width="111">
             <poly data="4,0,0,37,0,37,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy run left" rest="0.0" sensor="false"/>
         </anim>
         <anim across="3" down="3" durations="100,100,100,100,100,100,100,100" height="258" id="2" loop="true" name="enemy run right" numframes="8" originx="18" originy="43" sync="false" version="2" width="111">
             <poly data="4,0,0,37,0,37,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy run right" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="258" id="3" loop="true" name="enemy attack" numframes="11" originx="16" originy="43" sync="false" version="2" width="128">
-            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy attack" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="258" id="4" loop="true" name="enemy idle right" numframes="7" originx="16" originy="43" sync="false" version="2" width="96">
-            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy idle right" rest="0.0" sensor="false"/>
-        </anim>
     </sprite>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="7" name="Highway" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="1696" xpf="2.0" ypf="2.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="3" id="12" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="idle enemy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="86" id="13" name="idle enemy" shared="false" width="32">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="258" id="0" loop="true" name="enemy idle left" numframes="7" originx="16" originy="43" sync="false" version="2" width="96">
+            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="258" id="1" loop="true" name="enemy idle  right" numframes="7" originx="16" originy="43" sync="false" version="2" width="96">
+            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="idle  right" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="258" id="2" loop="true" name="enemy attack left" numframes="11" originx="16" originy="43" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy attack" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="258" id="3" loop="true" name="enemy attack right" numframes="11" originx="16" originy="43" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy attack right" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="map item" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="true">
         <snippets/>
     </actor>
@@ -151,11 +156,14 @@
         <anim across="5" down="4" durations="100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100" height="332" id="5" loop="true" name="idle left" numframes="18" originx="16" originy="41" sync="false" version="2" width="160">
             <poly data="4,0,0,32,0,32,83,0,83" density="0.1" fric="0.2" gid="-1000" id="0" name="idle left" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="249" id="7" loop="false" name="kick left" numframes="11" originx="28" originy="41" sync="false" version="2" width="224">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100,100,100" height="249" id="7" loop="false" name="kick left" numframes="9" originx="28" originy="41" sync="false" version="2" width="168">
             <poly data="4,0,0,56,0,56,83,0,83" density="0.1" fric="0.2" gid="-1000" id="0" name="kick left" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="249" id="8" loop="false" name="kick right" numframes="11" originx="28" originy="41" sync="false" version="2" width="224">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100,100,100" height="249" id="8" loop="false" name="kick right" numframes="9" originx="28" originy="41" sync="false" version="2" width="168">
             <poly data="4,0,0,56,0,56,83,0,83" density="0.1" fric="0.2" gid="-1000" id="0" name="kick right" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="3" id="10" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="running enemy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets/>
+    </actor>
 </pack>
