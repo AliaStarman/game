@@ -5,61 +5,55 @@
             <group eventID="2" id="-1">
                 <if comment="false" x="26" y="40">
                     <group eventID="2" id="-1">
-                        <set-dxy comment="false" x="37" y="78">
+                        <set-dxy comment="false" x="37" y="70">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="-15"/>
                         </set-dxy>
-                        <set-val-6-1 comment="false" x="37" y="105">
+                        <set-val-6-1 comment="false" x="37" y="97">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-6-1>
-                        <setanim comment="false" x="37" y="130">
+                        <setanim comment="false" x="37" y="122">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="enemy run left"/>
                         </setanim>
                     </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="0"/>
-                        </get-xy>
-                        <int id="1" val="1030"/>
-                    </more>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-6-2 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
                 </if>
-                <else-if comment="false" x="26" y="169">
+                <else-if comment="false" x="26" y="161">
                     <group eventID="2" id="-1">
-                        <set-dxy comment="false" x="37" y="207">
+                        <set-dxy comment="false" x="37" y="191">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="15"/>
                         </set-dxy>
-                        <set-val-6-1 comment="false" x="37" y="234">
+                        <set-val-6-1 comment="false" x="37" y="218">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-6-1>
-                        <setanim comment="false" x="37" y="259">
+                        <setanim comment="false" x="37" y="243">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="enemy run right"/>
                         </setanim>
                     </group>
-                    <less comment="false" id="0" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="0"/>
-                        </get-xy>
-                        <int id="1" val="660"/>
-                    </less>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-6-2 comment="false" id="0" x="0" y="0"/>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
                 </else-if>
-                <else-if comment="false" x="26" y="298">
+                <else-if comment="false" x="26" y="282">
                     <group eventID="2" id="-1">
-                        <set-dxy comment="false" x="37" y="351">
+                        <set-dxy comment="false" x="37" y="335">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="15"/>
                         </set-dxy>
-                        <set-val-6-1 comment="false" x="37" y="378">
+                        <set-val-6-1 comment="false" x="37" y="362">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-6-1>
-                        <setanim comment="false" x="37" y="403">
+                        <setanim comment="false" x="37" y="387">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="enemy run right"/>
                         </setanim>
@@ -140,4 +134,35 @@
         </event-collide-actortotype>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortogroup comment="false" x="26" y="59">
+            <group eventID="4" id="-1">
+                <if comment="false" x="37" y="91">
+                    <group eventID="4" id="-1">
+                        <set-val-6-2 comment="false" x="48" y="124">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-6-2>
+                    </group>
+                    <collision-left comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                    </collision-left>
+                </if>
+                <else-if comment="false" x="37" y="161">
+                    <group eventID="4" id="-1">
+                        <set-val-6-2 comment="false" x="48" y="194">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-6-2>
+                    </group>
+                    <collision-right comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                    </collision-right>
+                </else-if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="4" id="-1"/>
 </groups>
