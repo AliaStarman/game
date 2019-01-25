@@ -13,7 +13,7 @@
         <actor a="0.0" aid="4" c="false" group="3" id="8" name="map item 4" sx="1.0" sy="1.0" x="512" y="288" z="3"/>
         <actor a="0.0" aid="5" c="false" group="3" id="10" name="enemy 5" sx="1.0" sy="1.0" x="747" y="298" z="3"/>
         <actor a="0.0" aid="6" c="false" group="3" id="12" name="idle enemy 6" sx="1.0" sy="1.0" x="2194" y="297" z="3"/>
-        <actor a="0.0" aid="7" c="false" group="3" id="12" name="idle enemy 7" sx="1.0" sy="1.0" x="354" y="291" z="3"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="12" name="idle enemy 7" sx="1.0" sy="1.0" x="311" y="299" z="3"/>
     </actors>
     <snippets/>
     <terrain>

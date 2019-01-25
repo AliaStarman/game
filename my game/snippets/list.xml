@@ -80,9 +80,8 @@
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="e facingright" hidden="false" id="1" name="_efacingright" order="0"/>
         <blocks/>
         <events>
-            <event displayName="idle" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="3" repeats="true"/>
+            <event displayName="killed" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="false"/>
+            <event displayName="target" enabled="true" id="3" name="event-periodic" order="3" repeats="true"/>
         </events>
     </snippet>
 </pack>

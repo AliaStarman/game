@@ -92,11 +92,11 @@
         <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="258" id="1" loop="true" name="enemy idle  right" numframes="7" originx="16" originy="43" sync="false" version="2" width="96">
             <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="idle  right" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="258" id="2" loop="true" name="enemy attack left" numframes="11" originx="16" originy="43" sync="false" version="2" width="128">
-            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy attack" rest="0.0" sensor="false"/>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100,100" height="258" id="2" loop="false" name="enemy attack left" numframes="12" originx="0" originy="43" sync="false" version="2" width="216">
+            <poly data="4,0,0,54,0,54,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy attack left" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100" height="258" id="3" loop="true" name="enemy attack right" numframes="11" originx="16" originy="43" sync="false" version="2" width="128">
-            <poly data="4,0,0,32,0,32,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy attack right" rest="0.0" sensor="false"/>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100,100" height="258" id="3" loop="false" name="enemy attack right" numframes="12" originx="54" originy="43" sync="false" version="2" width="216">
+            <poly data="4,0,0,54,0,54,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="enemy attack right" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="map item" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="true">
