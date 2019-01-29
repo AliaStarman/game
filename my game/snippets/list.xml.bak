@@ -74,6 +74,7 @@
             <event displayName="running" enabled="true" id="2" name="step" order="2" repeats="true"/>
             <event displayName="killed" enabled="true" id="3" name="event-collide-actortotype" order="4" repeats="true"/>
             <event displayName="hit direction change" enabled="true" id="4" name="event-collide-actortogroup" order="5" repeats="true"/>
+            <event displayName="hit direction change" enabled="true" id="5" name="event-collide-actortotype" order="6" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="12" attachedevent="true" class="scripts.ActorEvents_12" classname="scripts.ActorEvents_12" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="7" name="ActorEvents_12" oid="-1" package="scripts." shared="false" type="actor">
@@ -82,6 +83,14 @@
         <events>
             <event displayName="killed" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="false"/>
             <event displayName="target" enabled="true" id="3" name="event-periodic" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="14" attachedevent="true" class="scripts.ActorEvents_14" classname="scripts.ActorEvents_14" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="8" name="ActorEvents_14" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="2" name="event-collide-actortogroup" order="2" repeats="true"/>
+            <event displayName="After N secs" enabled="true" id="3" name="event-delay" order="3" repeats="true"/>
         </events>
     </snippet>
 </pack>
