@@ -11,15 +11,20 @@
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="touchfloor" hidden="false" id="2" name="_touchfloor" order="1"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facingright" hidden="false" id="3" name="_facingright" order="2"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="protagonist x" hidden="false" id="4" name="_protagonistx" order="3"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="dead" hidden="false" id="5" name="_dead" order="4"/>
         <blocks/>
         <events>
-            <event displayName="running" enabled="true" id="1" name="step" order="6" repeats="true"/>
-            <event displayName="stay on the screen" enabled="true" id="2" name="step" order="8" repeats="true"/>
+            <event displayName="running/idle" enabled="true" id="1" name="step" order="9" repeats="true"/>
+            <event displayName="stay on the screen" enabled="true" id="2" name="step" order="12" repeats="false"/>
             <event displayName="jumping" enabled="true" id="3" name="step" order="1" repeats="true"/>
-            <event displayName="touchfloor" enabled="true" id="4" name="event-collide-actortogroup" order="7" repeats="true"/>
-            <event displayName="kicking" enabled="true" id="5" name="step" order="5" repeats="true"/>
-            <event displayName="enemy chase" enabled="true" id="6" name="event-collide-actortotype" order="2" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="7" name="event-collide-actortotype" order="3" repeats="true"/>
+            <event displayName="touchfloor" enabled="true" id="4" name="event-collide-actortogroup" order="10" repeats="true"/>
+            <event displayName="kicking" enabled="true" id="5" name="step" order="8" repeats="true"/>
+            <event displayName="enemy chase" enabled="true" id="6" name="event-collide-actortotype" order="3" repeats="true"/>
+            <event displayName="touch enemy" enabled="true" id="7" name="event-collide-actortotype" order="4" repeats="true"/>
+            <event displayName="dodge" enabled="true" id="8" name="step" order="2" repeats="true"/>
+            <event displayName="lazer" enabled="true" id="9" name="event-collide-actortotype" order="13" repeats="true"/>
+            <event displayName="respawn" enabled="true" id="10" name="step" order="5" repeats="true"/>
+            <event displayName="pitfall" enabled="true" id="11" name="step" order="6" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="3" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">

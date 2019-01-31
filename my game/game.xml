@@ -65,6 +65,7 @@
         <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
         <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
         <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="7" keyname="SPACE" name="spacebar" vk="32" vks="32"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
