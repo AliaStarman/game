@@ -16,16 +16,17 @@
         <blocks/>
         <events>
             <event displayName="running/idle" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="stay on the screen" enabled="true" id="2" name="step" order="8" repeats="false"/>
+            <event displayName="stay on the screen" enabled="true" id="2" name="step" order="5" repeats="false"/>
             <event displayName="jumping" enabled="true" id="3" name="step" order="2" repeats="true"/>
-            <event displayName="touchfloor" enabled="true" id="4" name="event-collide-actortogroup" order="13" repeats="true"/>
+            <event displayName="touchfloor" enabled="true" id="4" name="event-collide-actortogroup" order="12" repeats="true"/>
             <event displayName="kicking" enabled="true" id="5" name="step" order="3" repeats="true"/>
             <event displayName="enemy chase" enabled="true" id="6" name="event-collide-actortotype" order="14" repeats="true"/>
-            <event displayName="touch enemy" enabled="true" id="7" name="event-collide-actortotype" order="16" repeats="true"/>
+            <event displayName="touch enemy" enabled="true" id="7" name="event-collide-actortotype" order="15" repeats="true"/>
             <event displayName="dodge" enabled="true" id="8" name="step" order="4" repeats="true"/>
-            <event displayName="lazer" enabled="true" id="9" name="event-collide-actortotype" order="18" repeats="true"/>
+            <event displayName="lazer" enabled="true" id="9" name="event-collide-actortotype" order="17" repeats="true"/>
             <event displayName="respawn" enabled="true" id="12" name="event-actor-create-kill" order="19" repeats="true"/>
-            <event displayName="dead" enabled="true" id="13" name="step" order="11" repeats="true"/>
+            <event displayName="dead" enabled="true" id="13" name="step" order="9" repeats="true"/>
+            <event displayName="door" enabled="false" id="14" name="event-collide-actortotype" order="20" repeats="false"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="3" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
@@ -97,6 +98,13 @@
             <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
             <event displayName="Actor - Group" enabled="true" id="2" name="event-collide-actortogroup" order="2" repeats="true"/>
             <event displayName="After N secs" enabled="true" id="3" name="event-delay" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="16" attachedevent="true" class="scripts.ActorEvents_16" classname="scripts.ActorEvents_16" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="9" name="ActorEvents_16" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
         </events>
     </snippet>
 </pack>
