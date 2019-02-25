@@ -23,7 +23,7 @@
         <tile collision="-1" data="" durations="100" frames="19" id="228" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="20" id="89" order="-1"/>
         <tile collision="0" data="" durations="100" frames="21" id="94" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="22" id="232" order="-1"/>
+        <tile collision="24" data="" durations="100" frames="22" id="232" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="23" id="233" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="24" id="234" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="25" id="235" order="-1"/>
@@ -116,6 +116,14 @@
         </anim>
         <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100,100" height="258" id="3" loop="false" name="enemy attack left" numframes="12" originx="38" originy="43" sync="false" version="2" width="304">
             <poly data="4,0,0,76,0,76,86,0,86" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="3" id="19" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="map icon" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="20" name="map icon" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="false" name="idle" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="map item" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="true">

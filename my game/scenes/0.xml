@@ -9,7 +9,7 @@
     </layers>
     <joints/>
     <regions>
-        <region b="64" g="64" h="62" id="0" name="Region 0" pts="4,214.0,0.0,214.0,62.0,0.0,62.0,0.0,0.0" r="64" type="box" w="214" x="1285" y="415"/>
+        <region b="64" g="64" h="62" id="0" name="Region 0" pts="4,0.0,0.0,0.0,62.0,214.0,62.0,214.0,0.0" r="64" type="box" w="214" x="1285" y="415"/>
     </regions>
     <terrainRegions/>
     <actors>
@@ -17,7 +17,7 @@
         <actor a="0.0" aid="4" c="false" group="3" id="8" name="map item 4" sx="1.0" sy="1.0" x="512" y="288" z="3"/>
         <actor a="0.0" aid="5" c="false" group="3" id="10" name="enemy 5" sx="1.0" sy="1.0" x="747" y="298" z="3"/>
         <actor a="0.0" aid="6" c="false" group="3" id="12" name="idle enemy 6" sx="1.0" sy="1.0" x="2194" y="297" z="3"/>
-        <actor a="0.0" aid="7" c="false" group="3" id="12" name="idle enemy 7" sx="1.0" sy="1.0" x="2240" y="299" z="3"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="12" name="idle enemy 7" sx="1.0" sy="1.0" x="2267" y="298" z="3"/>
         <actor a="0.0" aid="8" c="false" group="3" id="10" name="running enemy 8" sx="1.0" sy="1.0" x="1684" y="297" z="3"/>
         <actor a="0.0" aid="9" c="false" group="3" id="16" name="door 9" sx="1.0" sy="1.0" x="2336" y="192" z="5"/>
     </actors>
