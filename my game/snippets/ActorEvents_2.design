@@ -510,22 +510,22 @@
         </step>
     </group>
     <group eventID="3" id="-1">
-        <get-val-2-3 comment="false" x="954" y="150"/>
-        <true comment="false" x="982" y="116"/>
-        <get-val-2-3 comment="false" x="978" y="337"/>
-        <true comment="false" x="988" y="343"/>
-        <keystate comment="false" x="982" y="458">
-            <int id="0" val="0"/>
-            <control eid="3" id="1"/>
-        </keystate>
-        <eq comment="false" x="815" y="379">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </eq>
         <and comment="false" x="565" y="376">
             <int id="0" val=""/>
             <int id="1" val=""/>
         </and>
+        <eq comment="false" x="815" y="379">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </eq>
+        <keystate comment="false" x="982" y="458">
+            <int id="0" val="0"/>
+            <control eid="3" id="1"/>
+        </keystate>
+        <true comment="false" x="988" y="343"/>
+        <get-val-2-3 comment="false" x="978" y="337"/>
+        <true comment="false" x="982" y="116"/>
+        <get-val-2-3 comment="false" x="954" y="150"/>
     </group>
     <group eventID="4" id="0">
         <event-collide-actortogroup comment="false" x="31" y="110">
@@ -1206,27 +1206,27 @@
                 </else-if>
                 <else-if comment="false" x="26" y="708">
                     <group eventID="15" id="-1">
-                        <set-dxy comment="false" x="37" y="776">
+                        <set-dxy comment="false" x="37" y="766">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-2-1 comment="false" id="2" x="0" y="0"/>
                         </set-dxy>
-                        <setanim comment="false" x="37" y="808">
+                        <setanim comment="false" x="37" y="798">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="jump right"/>
                         </setanim>
-                        <set-dxy comment="false" x="37" y="835">
+                        <set-dxy comment="false" x="37" y="825">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="-33"/>
                         </set-dxy>
-                        <set-val-2-2 comment="false" x="37" y="862">
+                        <set-val-2-2 comment="false" x="37" y="852">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-2>
-                        <set-val-2-3 comment="false" x="37" y="887">
+                        <set-val-2-3 comment="false" x="37" y="877">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-2-3>
-                        <set-game-val-0 comment="false" x="37" y="912">
+                        <set-game-val-0 comment="false" x="37" y="902">
                             <int id="0" val="5"/>
                         </set-game-val-0>
                     </group>
@@ -1271,24 +1271,24 @@
                         </eq>
                     </and>
                 </else-if>
-                <else-if comment="false" x="26" y="944">
+                <else-if comment="false" x="26" y="934">
                     <group eventID="15" id="-1">
-                        <setanim comment="false" x="37" y="1012">
+                        <setanim comment="false" x="37" y="992">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="jump left"/>
                         </setanim>
-                        <set-dxy comment="false" x="37" y="1039">
+                        <set-dxy comment="false" x="37" y="1019">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="-33"/>
                         </set-dxy>
-                        <set-val-2-2 comment="false" x="37" y="1066">
+                        <set-val-2-2 comment="false" x="37" y="1046">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-2>
-                        <set-val-2-3 comment="false" x="37" y="1091">
+                        <set-val-2-3 comment="false" x="37" y="1071">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-3>
-                        <set-game-val-0 comment="false" x="37" y="1116">
+                        <set-game-val-0 comment="false" x="37" y="1096">
                             <int id="0" val="6"/>
                         </set-game-val-0>
                     </group>
@@ -1333,24 +1333,24 @@
                         </eq>
                     </and>
                 </else-if>
-                <else-if comment="false" x="26" y="1148">
+                <else-if comment="false" x="26" y="1128">
                     <group eventID="15" id="-1">
-                        <setanim comment="false" x="37" y="1206">
+                        <setanim comment="false" x="37" y="1186">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="jump right"/>
                         </setanim>
-                        <set-dxy comment="false" x="37" y="1233">
+                        <set-dxy comment="false" x="37" y="1213">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="-33"/>
                         </set-dxy>
-                        <set-val-2-2 comment="false" x="37" y="1260">
+                        <set-val-2-2 comment="false" x="37" y="1240">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-2>
-                        <set-val-2-3 comment="false" x="37" y="1285">
+                        <set-val-2-3 comment="false" x="37" y="1265">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-2-3>
-                        <set-game-val-0 comment="false" x="37" y="1310">
+                        <set-game-val-0 comment="false" x="37" y="1290">
                             <int id="0" val="7"/>
                         </set-game-val-0>
                     </group>
@@ -1403,24 +1403,24 @@
                         </and>
                     </and>
                 </else-if>
-                <else-if comment="false" x="26" y="1342">
+                <else-if comment="false" x="26" y="1322">
                     <group eventID="15" id="-1">
-                        <setanim comment="false" x="37" y="1405">
+                        <setanim comment="false" x="37" y="1385">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="jump left"/>
                         </setanim>
-                        <set-dxy comment="false" x="37" y="1432">
+                        <set-dxy comment="false" x="37" y="1412">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="-33"/>
                         </set-dxy>
-                        <set-val-2-2 comment="false" x="37" y="1459">
+                        <set-val-2-2 comment="false" x="37" y="1439">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-2>
-                        <set-val-2-3 comment="false" x="37" y="1484">
+                        <set-val-2-3 comment="false" x="37" y="1464">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-3>
-                        <set-game-val-0 comment="false" x="37" y="1509">
+                        <set-game-val-0 comment="false" x="37" y="1489">
                             <int id="0" val="8"/>
                         </set-game-val-0>
                     </group>
@@ -1473,24 +1473,24 @@
                         </eq>
                     </and>
                 </else-if>
-                <else-if comment="false" x="26" y="1541">
+                <else-if comment="false" x="26" y="1521">
                     <group eventID="15" id="-1">
-                        <set-dxy comment="false" x="37" y="1599">
+                        <set-dxy comment="false" x="37" y="1574">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-2-1 comment="false" id="2" x="0" y="0"/>
                         </set-dxy>
-                        <setanim comment="false" x="37" y="1631">
+                        <setanim comment="false" x="37" y="1606">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="jump right"/>
                         </setanim>
-                        <set-val-2-2 comment="false" x="37" y="1658">
+                        <set-val-2-2 comment="false" x="37" y="1633">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-2>
-                        <set-val-2-3 comment="false" x="37" y="1683">
+                        <set-val-2-3 comment="false" x="37" y="1658">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-2-3>
-                        <set-game-val-0 comment="false" x="37" y="1708">
+                        <set-game-val-0 comment="false" x="37" y="1683">
                             <int id="0" val="13"/>
                         </set-game-val-0>
                     </group>
@@ -1529,26 +1529,26 @@
                         </and>
                     </and>
                 </else-if>
-                <else-if comment="false" x="26" y="1740">
+                <else-if comment="false" x="26" y="1715">
                     <group eventID="15" id="-1">
-                        <set-dxy comment="false" x="37" y="1793">
+                        <set-dxy comment="false" x="37" y="1768">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
                                 <get-val-2-1 comment="false" id="0" x="0" y="0"/>
                             </neg>
                         </set-dxy>
-                        <setanim comment="false" x="37" y="1830">
+                        <setanim comment="false" x="37" y="1805">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="jump left"/>
                         </setanim>
-                        <set-val-2-2 comment="false" x="37" y="1857">
+                        <set-val-2-2 comment="false" x="37" y="1832">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-2>
-                        <set-val-2-3 comment="false" x="37" y="1882">
+                        <set-val-2-3 comment="false" x="37" y="1857">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-2-3>
-                        <set-game-val-0 comment="false" x="37" y="1907">
+                        <set-game-val-0 comment="false" x="37" y="1882">
                             <int id="0" val="14"/>
                         </set-game-val-0>
                     </group>
@@ -1598,13 +1598,13 @@
             <int id="1" val="0"/>
         </event-key-press-release>
     </group>
-    <group eventID="16" id="9">
+    <group eventID="16" id="1">
         <and comment="false" x="493" y="608">
             <int id="0" val=""/>
             <int id="1" val=""/>
         </and>
     </group>
-    <group eventID="16" id="10">
+    <group eventID="16" id="2">
         <set-dxy comment="false" x="205" y="541">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="1"/>
@@ -1617,18 +1617,18 @@
         </set-dxy>
     </group>
     <group eventID="16" id="-1">
-        <eq comment="false" x="795" y="503">
-            <get-val-2-2 comment="false" id="0" x="0" y="0"/>
-            <false comment="false" id="1" x="0" y="0"/>
-        </eq>
-        <and comment="false" x="472" y="561">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </and>
-        <true comment="false" x="418" y="619"/>
         <keystate comment="false" x="689" y="712">
             <int id="0" val="0"/>
             <control eid="0" id="1"/>
         </keystate>
+        <true comment="false" x="418" y="619"/>
+        <and comment="false" x="472" y="561">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </and>
+        <eq comment="false" x="795" y="503">
+            <get-val-2-2 comment="false" id="0" x="0" y="0"/>
+            <false comment="false" id="1" x="0" y="0"/>
+        </eq>
     </group>
 </groups>

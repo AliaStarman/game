@@ -15,9 +15,9 @@
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="dead" hidden="false" id="5" name="_dead" order="4"/>
         <blocks/>
         <events>
-            <event displayName="running/idle" enabled="false" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="running/idle" enabled="false" id="1" name="step" order="1" repeats="false"/>
             <event displayName="stay on the screen" enabled="true" id="2" name="step" order="7" repeats="false"/>
-            <event displayName="jumping" enabled="false" id="3" name="step" order="4" repeats="true"/>
+            <event displayName="jumping" enabled="false" id="3" name="step" order="3" repeats="true"/>
             <event displayName="touchfloor" enabled="true" id="4" name="event-collide-actortogroup" order="14" repeats="true"/>
             <event displayName="kicking" enabled="true" id="5" name="step" order="5" repeats="true"/>
             <event displayName="enemy chase" enabled="true" id="6" name="event-collide-actortotype" order="16" repeats="true"/>
@@ -27,8 +27,8 @@
             <event displayName="respawn" enabled="true" id="12" name="event-actor-create-kill" order="21" repeats="true"/>
             <event displayName="dead" enabled="true" id="13" name="step" order="11" repeats="true"/>
             <event displayName="door" enabled="true" id="14" name="event-collide-actortotype" order="22" repeats="false"/>
-            <event displayName="movement" enabled="true" id="15" name="step" order="2" repeats="true"/>
-            <event displayName="Keyboard" enabled="false" id="16" name="event-key-press-release" order="3" repeats="true"/>
+            <event displayName="movement" enabled="true" id="15" name="step" order="4" repeats="true"/>
+            <event displayName="Keyboard" enabled="false" id="16" name="event-key-press-release" order="2" repeats="false"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="3" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
@@ -72,8 +72,8 @@
     <snippet actorid="8" attachedevent="true" class="scripts.ActorEvents_8" classname="scripts.ActorEvents_8" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_8" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events>
-            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
-            <event displayName="Actor Created" enabled="true" id="3" name="event-type-create-kill" order="3" repeats="true"/>
+            <event displayName="collected" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="icon created" enabled="true" id="3" name="event-type-create-kill" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="10" attachedevent="true" class="scripts.ActorEvents_10" classname="scripts.ActorEvents_10" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="6" name="ActorEvents_10" oid="-1" package="scripts." shared="false" type="actor">
